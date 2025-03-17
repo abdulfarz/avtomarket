@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АвтоМаркет</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>АвтоМаркет</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="catalog">
+            <h2>Каталог автомобилей</h2>
+            <div class="car-list">
+                <div class="car-item">
+                    <h3>BMW X5</h3>
+                    <img src="i.webp" alt="BMW X5" width="300" height="200">
+                    <p>Цена: $50,000 </p>
+                    <button onclick="showDetails('BMW X5', 50000 )">Подробнее</button>
+                </div>
+                <div class="car-item">
+                    <h3>Audi Q7</h3>
+                    <img src="audi.jpg" alt="BMW X5" width="300" height="200">
+                    <p>Цена: $55,000</p>
+                    
+                    <p>
+                    <button onclick="showDetails('Audi Q7', 55000)">Подробнее</button>
+                </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+   
+   
+   
+   
+   <h6>
+    <footer>
+        <p>&copy; 2025 Автомобили</p>
+    </footer>
+</h6>
+    <script src="script.js"></script>
+</body>
+</html>
